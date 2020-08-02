@@ -602,9 +602,7 @@ Out of all these codes, the leaked Nintendo code was the highlight in the gaming
                     </h5>
                   </div>
                   <div>
-                      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeShn8qw9oYoXpW5YdrsTqG2Lp4-XwlDRFHWnXY-tdI5dhmkQ/formResponse" method="post" target="_self" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div ></div>
+                      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeShn8qw9oYoXpW5YdrsTqG2Lp4-XwlDRFHWnXY-tdI5dhmkQ/formResponse" method="post" target="_blank" role="form"  name="myForm" onsubmit="return validate()">
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
@@ -631,7 +629,7 @@ Out of all these codes, the leaked Nintendo code was the highlight in the gaming
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit"  Onsubmit="clearContact()" class="button button-a button-big button-rouded">Send Message</button>
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
                           <BUtton type="reset" class="button button-a button-big button-rouded">Reset</BUtton>
                         </div>
                       </div>
@@ -697,13 +695,7 @@ Out of all these codes, the leaked Nintendo code was the highlight in the gaming
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
 }
-
-  <script>
-    function clearContact(){
-  alert("Your message has been sent. Thank you!");
-  // location.reload();
-    }
-  </script>
+<script src="script.js"></script>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
